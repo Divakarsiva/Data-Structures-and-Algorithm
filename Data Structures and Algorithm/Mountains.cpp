@@ -18,6 +18,7 @@ public:
 			if (arr[i] > arr[i-1] && arr[i] > arr[i+1]) {
 				int count = 1;
 				int j = i;
+				//comment
 				//from peak to down left side
 				while (j>=1 && arr[j]>arr[j-1])
 				{
